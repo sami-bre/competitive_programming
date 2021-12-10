@@ -15,9 +15,9 @@ import sys
 
 def countingSort(arr):
     # Write your code here
-    freqArr = []
-    for i in range(100):
-        freqArr.insert(i, arr.count(i))
+    freqArr = [0 for i in range(100)]
+    for number in arr:
+        freqArr[number] += 1
     
     return freqArr
     
