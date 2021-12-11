@@ -22,7 +22,7 @@ class Solution:
 #  Driver Code Starts
 #Initial Template for Python 3
 
-if __name__ == '__main__': 
+if __name__ == '__main__':
     t = int(input())    #number of test cases
     for _ in range(t):  
         n = int(input())    # the size of the current test array
