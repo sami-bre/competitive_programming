@@ -3,8 +3,6 @@ class Solution:
         time_left = []
         data = sorted([(position[i], speed[i]) for i in range(len(position))])
         
-        print(data)
-        
         for i in range(len(position)):
             time_left.append((target-data[i][0])/data[i][1])
             
