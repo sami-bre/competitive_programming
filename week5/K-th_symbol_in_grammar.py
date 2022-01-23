@@ -17,8 +17,6 @@ class Solution:
                     num =  "01"
                 elif num=="1":
                     num = "10"
-                else:
-                    print("There is a problem")
                 
                 if k > (2**(N-1))/(2**(n-1)):
                     k -= (2**(N-1))/(2**(n-1))
